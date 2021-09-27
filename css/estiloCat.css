@@ -1,0 +1,278 @@
+* {
+    margin:  0px;
+    padding: 0px;
+}
+header{
+    position: relative;
+    width: 100%;
+    padding: 1px;
+    overflow: hidden;
+}
+
+h1{
+    font-family: sans-serif;
+    background-color: #F4E9DC;
+    font-size: 45px;
+    color: #4e4b3d;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+#logo {
+    position: relative;
+    width: 150px;
+    float: left;
+    padding: 0px;
+}
+
+#menu{
+    width: 100%;
+    margin: 0%;
+    /* padding: 10px; */
+    overflow: hidden;
+    background: #5D5C19;
+}
+
+#menu a{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 18px 20px;
+    float: left; 
+}
+
+#menu a:hover{
+    background-color: #5f512a;
+}
+table{
+    position: relative;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+    letter-spacing: 0.5px;    
+}
+.Personas-div img{
+    display: block;
+    width: 250px;
+    height: 200px;
+    padding: 25px 65px;
+    overflow: hidden;
+    
+}
+.Personas-div a{
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    text-align: center;
+    float: left;
+}
+.Personas-div a:hover{
+    background-color:#889279;
+    padding-bottom: 5px;
+}
+#derechos-autor{
+    width: 1920px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    color: #000000;
+    text-decoration: none;
+    text-align: left;
+    background-color: #ece4d8;
+    /* margin: 5px; */
+    /* padding-bottom: 10px; */
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 18px 20px;
+    word-spacing: 1px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conte{
+    height: 510px;
+    width: 25%;
+    box-shadow:0 0 7px #111 ;
+    margin: 30px 30px;
+}
+.conte .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .stromtroper img{
+    height: 330px;
+    width: 330px;
+}
+.conte .stromtroper{
+     background-color: #111;
+}
+.conte .garañona{
+    background-color: #6A0C0B;
+}
+.conte .tableta1{
+    background-color:#B11313;
+}
+.conte .garañona img{
+    height: 330px;
+    width: 380px;
+}
+.conte .tableta1 img{
+    height: 300px;
+    width: 380px;
+}
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+.precio {
+    height:50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-precio{
+    width: 80px;
+}
+ .precio1{
+    color: red;
+    font-size: .8em;
+}
+.precio .precio2{
+    font-size: 1.5em;
+}
+.shoping{
+    font-size: 1.5em;
+    color: #555;
+}
+
+@media (max-width:320px)
+{
+    .conte{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+@media (max-width:600px)
+{
+    .conte{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:700px)
+{
+    .conte{
+        width: 80%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:900px)
+{
+    .conte{
+        width: 40%;
+        margin: 30px 20px;
+    }
+}
+.pagar h2{
+    font-family: 'calibri';
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.controles{
+    width: 400px;
+    position: center;
+    font-family: 'calibri';
+    background: #faf2c8;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #c59e1f;
+}
+.controles:hover{
+
+    background-color: rgb(170, 147, 103);
+  }
+  
+  .pagar p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .pagar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .pagar a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+   
+  }
+  
+  .pagar .boton {
+    width: 100%;
+    background: #c0af62d0;
+    border: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .pagar .boton:hover{
+    background-color: rgba(235, 200, 88, 0.822);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

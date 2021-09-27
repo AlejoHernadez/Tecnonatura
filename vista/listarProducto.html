@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnonatura</title>
+    <link rel="stylesheet" href="../css/estilopro.css">
+    <script src="https://kit.fontawesome.com/8eeb2aefd1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <body bgcolor="white">
+    <header>
+        <img id=logo src="../css/imagenes/natt.png" alt="Tecnonatura">
+        <h1>Manutencion de Producto</h1>
+
+        <!-- Menu Horizontal -->
+        <nav id=menu>
+            <a style=float:right href="index.php">
+            <span id="icono">
+                <i class="fas fa-user">Cerrar Sesion</i>
+            </span>
+        </a>    
+        </nav>
+    </header>
+    <!-- menu vertical     -->
+    <div class="perfil-prod">
+        <a href="perfilAdministrador.html"></a>
+            <p>  <i class="fas fa-user-cog"></i> Operaciones</p>
+        </a>
+        <nav class="menu-lateral">
+            <ul>
+                <li><i class="fas fa-comments-dollar"></i> <a href="listarVendedor.html">Vendedor </a></li>
+                <li><i class="fas fa-user-check"></i><a href="listarCliente.html">Cliente </a></li>
+                <li><i class="fas fa-tasks"></i><a href="listarProducto.html">Producto </a></li>
+                <li><i class="fas fa-times-circle"></i><a href="index.html">Cerrar  Sesion </a></li>    
+            </ul>
+        </nav>
+    </div>
+    <!-- Lista Productos -->
+    <div class= tabla-prod>
+    <table border="1.5">
+        <tr>
+            <td id=nuevo style="border:hidden" class=ope>
+                <a href="formProducto.html">
+                <i class="fas fa-plus-circle"></i>Nuevo</a>
+
+            </td>
+        </tr>
+           
+        <!--Primer Fila Encabezado -->
+        <tr class= div-listaprod>
+            <th>Codigo</th>
+            <th>Clasificacion</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Contenido</th>
+            <th colspan="2">operaciones
+            </th>
+        </tr>
+        <!-- Segunda Fila -->
+        <tr class= div-listaprod>
+            <th>140918</th>
+            <th>Linea Premium</th>
+            <th>Cloruro Magnesio</th>
+            <th>$89.70</th>
+            <th>60 tabs</th>
+            <th clas=ope>
+                <a href="formProducto.html">
+                    <i class="fas fa-edit"></i> </a> 
+            </th>
+            <th class=ope>
+                <a href="eliminarProducto.html"><i class="fas fa-trash"></i></a>
+            </th>
+        </tr>
+         <!-- Tercer Fila -->
+         <tr class=div--listaprod>
+            <th>161409</th>
+            <th>Tabletas</th>
+            <th>Levadura Cerveza</th>
+            <th>$44.21</th>
+            <th>125 tabs</th>
+            <th clas=ope>
+                <a href="formProducto.html">
+                    <i class="fas fa-edit"></i> </a> 
+            </th>
+            <th class=ope>
+                <a href="eliminarProducto.html"><i class="fas fa-trash"></i></a>
+            </th>
+        </tr>
+         <!-- Cuarta Fila -->
+         <tr class=div-listaprod>
+            <th>140001</th>
+            <th>Ampoyetas</th>
+            <th>Calcio</th>
+            <th>$73.68</th>
+            <th>10 ampolletas</th>
+            <th clas=ope>
+                <a href="formProducto.html">
+                    <i class="fas fa-edit"></i> </a>  
+            </th>
+            <th class=ope>
+                <a href="eliminarProducto.html"><i class="fas fa-trash"></i></a>
+            </th>
+        </tr>
+        <!-- Quinta Fila -->
+        <tr class=div-listaprod>
+            <th>140001</th>
+            <th>Varios</th>
+            <th>Henna Tinte Nat </th>
+            <th>$31.18</th>
+            <th>100 gr</th>
+            <th clas=ope>
+                <a href="formProducto.html">
+                    <i class="fas fa-edit"></i> </a>  
+            </th>
+            <th class=ope>
+                <a href="eliminarProducto.html"><i class="fas fa-trash"></i></a>
+            </th>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
+

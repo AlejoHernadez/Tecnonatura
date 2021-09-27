@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../css/estiloformproductos.css">
+</head>
+<body bgcolor="white"> 
+    <header>
+        <img id=logo src="../css/imagenes/natt.png" alt="Tecnonatura" >
+        <h1>Registrar Productos</h1>
+        <nav id=menu>
+            <a style=float:right href="index.php">
+                <span id="icono">
+                    <i class="fas fa-user">Cerrar Sesion</i>
+                </span>
+            </a>    
+        </nav>
+    </header>
+
+    <div>
+        <form method="POST" action="listarProducto.html">
+            <table class="form-prod" >
+                <tr>
+                    <td >
+                        <label for="cod">Codigo</label><br>
+                        <input class="input" type="text" name="id">
+                    </td>
+                 <td>
+                     <label for="nom">Clasificacion</label><br>
+                     <input class=input type="text" name="nom">
+                 </td>
+             </tr>
+
+             <tr>
+                <td>
+                    <label for="cla">Nombre</label><br>
+                    <input class=input type="text" name="ap">
+                </td>
+                    <td >
+                    <label for="cla">Precio</label><br>
+                    <input class=input type="text" name="am">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="cla">Contenido</label><br>
+                    <input class=input type="text" name="cel">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br>
+                    <input class="boton" type="submit" value="Registrar">
+                </td>
+            </tr>
+
+            </table>
+        </form>
+    </div>  
+    <div class="boton-2">
+        <form method="GET" action="listarProducto.html">
+        <input class="boton2" type="submit" value="Salir del registro">
+    </form>
+    </div>
+</body>
+</html>

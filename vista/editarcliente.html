@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnonatura</title>
+    <link rel="stylesheet" href="../css/estiloeditclien.css">
+    <script src="https://kit.fontawesome.com/8eeb2aefd1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <body bgcolor="white">
+    <header>
+        <img id=logo src="../css/imagenes/natt.png" alt="Tecnonatura" >
+        <h1>Manutencion de clientes </h1>
+        <nav id=menu>
+            <a href="index.php"> Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="clientes.html">Clientes</a>   
+            <a href="iniciar_sesion.html">Registrarse</a>      
+        </nav>
+    </header>
+    <!-- menu vertical     -->
+    <div class="perfil-prof">
+        <a id="operaciones" href="#">
+            <p>  <i class="fas fa-briefcase"></i> Operaciones</p>
+        </a>
+        <nav class="menu-lateral">
+            <ul>
+                <li><i class="fas fa-comments-dollar"></i> <a href="listarVendedor.html">Vendedor </a></li>
+                <li><i class="fas fa-user-check"></i><a href="listarCliente.html">Cliente </a></li>
+                <li><i class="fas fa-tasks"></i><a href="listarProducto.html">Producto </a></li>
+                <li><i class="fas fa-times-circle"></i><a href="index.html">Cerrar  Sesion </a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="tabla-clientes">
+        <table border="1.5">
+            
+            <tr>
+                <th>Codigo de Cliente</th>
+                <th>Nombre(s)</th>
+                <th>Apellido paterno</th>
+                <th>Apellido Materno</th>
+                <th>Estado de membresia</th>
+                <th>Productos comprados</th>
+                <th>Total de compra</th>
+                <th>Editar</th>
+                <th>Guardar</th>
+            </tr>
+            <tr>
+                <th><input class="controls" type="text" name="codigo" placeholder="Editar"></th>
+                <th><input class="controls" type="text" name="codigo" placeholder="Editar"></th>
+                <th><input class="controls" type="text" name="codigo" placeholder="Editar"></th>
+                <th><input class="controls" type="text" name="codigo" placeholder="Editar"></th>
+                <th><input class="controls" type="text" name="codigo" placeholder="Editar"></th>
+                <th><input class="controls" type="text" name="codigo" placeholder="Editar"></th>
+                <th><input class="controls" type="text" name="codigo" placeholder="Editar"></th>
+                <th><a href="editarcliente.html"><i class="fas fa-edit"></i></a></th>
+                <th><a href="listarCliente.html"><i class="fas fa-save"></i></a></th>
+            </tr>
+            <tr>
+                <th>2032410405</th>
+                <th>Miriam  </th>
+                <th>Sosa</th>
+                <th>Martinez</th>
+                <th>Premium</th>
+                <th>13</th>
+                <th>7800</th>
+                <th><a href="#"><i class="fas fa-edit"></i></a></th>
+                <th><a href="#"><i class="fas fa-save"></i></a></th>
+            </tr>
+            <tr>
+                <th>2032410290</th>
+                <th>Roberto Angel </th>
+                <th>Hernandez</th>
+                <th>Hernandez</th>
+                <th>Normal</th>
+                <th>2</th>
+                <th>580</th>
+                <th><a href="#"><i class="fas fa-edit"></i></a></th>
+                <th><a href="#"><i class="fas fa-save"></i></a></th>
+            </tr>
+        </table>
+    </div>
+    </body>
+</html>

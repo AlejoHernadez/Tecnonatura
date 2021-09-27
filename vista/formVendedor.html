@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendedores</title>
+    <link rel="stylesheet" href="../css/estiloformvendedor.css">
+</head>
+<body bgcolor="white"> 
+    <header>
+        <img id=logo src="../css/imagenes/natt.png" alt="Tecnonatura" >
+        <h1>Registrar Vendedores </h1>
+        <nav id=menu>
+            <a style=float:right href="index.php">
+                <span id="icono">
+                    <i class="fas fa-user">Cerrar Sesion</i>
+                </span>
+            </a>    
+        </nav>
+    </header>
+
+    <div>
+        <form method="POST" action="listarVendedor.html">
+            <table class="form-prod" >
+                <tr>
+                    <td >
+                        <label for="cod">ID</label><br>
+                        <input class="input" type="text" name="id">
+                    </td>
+                 <td>
+                     <label for="nom">Nombre</label><br>
+                     <input class=input type="text" name="nom">
+                 </td>
+             </tr>
+
+             <tr>
+                <td>
+                    <label for="cla">Apellido  Paterno</label><br>
+                    <input class=input type="text" name="ap">
+                </td>
+                    <td >
+                    <label for="cla">Apellido  Materno</label><br>
+                    <input class=input type="text" name="am">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="cla">Celular</label><br>
+                    <input class=input type="text" name="cel">
+                </td>
+                    <td>
+                    <label for="cla">Correo Electronico</label><br>
+                    <input class=input type="text" name="cor">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <br>
+                    <input class="boton" type="submit" value="Registrar">
+                </td>
+            </tr>
+
+            </table>
+        </form>
+    </div>  
+    <div class="boton-2">
+        <form method="GET" action="listarVendedor.html">
+        <input class="boton2" type="submit" value="Salir del registro">
+    </form>
+    </div>
+</body>
+</html>
